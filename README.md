@@ -1,2 +1,1 @@
-# repomend-fixture
-Intentional vulnerabilities for RepoMend scanner testing. Do not use in production.
+# repomend-fixture — intentional vulnerabilities for scanner testing
