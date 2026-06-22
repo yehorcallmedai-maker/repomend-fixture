@@ -1,4 +1,4 @@
-# clean.py — no violations, used to verify scanner returns 0 findings
+# clean.py â€” no violations, used to verify scanner returns 0 findings
 
 def add(a, b):
     return a + b
