@@ -21,7 +21,7 @@ def _log(msg: str) -> None:
 
 def run_command(cmd: str) -> None:
     """Execute a shell command."""
-    subprocess.run(cmd, shell=True)
+    subprocess.run(shlex.split(cmd), shell=False)
 
 
 def evaluate(user_input: str):
